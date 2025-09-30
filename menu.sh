@@ -4,6 +4,11 @@ mostrar_fecha() {
     echo "La fecha actual es: $(date)"
 }
 
+tres_primeros() {
+     cadena="$1"
+     echo "Los tres primeros caracteres de '$cadena' son: ${cadena:0:3}"
+}
+
 while true; do
     echo "----- MENÚ -----"
     echo "1) Mostrar fecha"
