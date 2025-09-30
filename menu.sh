@@ -37,7 +37,7 @@ while true; do
 	8) ultimo "palabra" ;;
         9) tres_primeros "palabra" ;;
         10) tres_ultimos "palabra" ;;
-        99) echo "saliendo..."; exit 0 ;;
+        99) salir ;;
         *) echo "Opción inválida" ;;
     esac
 done
