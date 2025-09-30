@@ -24,7 +24,8 @@ while true; do
         2) mostrar_usuario ;;
         3) sumar 5 7 ;;
         4) restar 12 4 ;;
-        5) echo "Resultado: $((20/5))" ;;
+        5) dividir 20 5 
+	 echo "Resultado: $((20/5))" ;;
         6) largo "palabra" ;;
         7) primero "palabra" ;;
         8) ultimo "palabra" ;;
