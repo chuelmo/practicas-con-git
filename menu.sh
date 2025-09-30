@@ -4,11 +4,9 @@ mostrar_fecha() {
     echo "La fecha actual es: $(date)"
 }
 
-echo "${palabra:0:1}"
-
-primer_caracter() {
-    cadena="palabra"
-    echo "Cadena original: $cadena"
+primero() {
+    cadena=$1
+    echo "Cadena original: $1"
     echo "Primer caracter: ${cadena:0:1}"
 }
 
@@ -36,11 +34,10 @@ while true; do
         5) dividir 20 5 ;;
         6) largo "palabra" ;;
         7) primero "palabra" ;;
-	   primer_caracter
-        8) ultimo "palabra" ;;
+	8) ultimo "palabra" ;;
         9) tres_primeros "palabra" ;;
         10) tres_ultimos "palabra" ;;
-        99) salir ;;
+        99) echo "saliendo..."; exit 0 ;;
         *) echo "Opción inválida" ;;
     esac
 done
