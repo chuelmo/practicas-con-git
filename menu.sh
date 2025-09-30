@@ -4,7 +4,7 @@ mostrar_fecha() {
     echo "La fecha actual es: $(date)"
 }
 
-tres_ultimo(){
+tres_ultimos(){
 	palabra=$1
 	ultimas3=${palabra: -3}
 	echo "Los ultimos tres caracteres son: $ultimas3"
