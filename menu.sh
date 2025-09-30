@@ -9,6 +9,11 @@ largo() {
     echo "El largo de la cadena $cadena es: ${#cadena}"
 }
 
+tres_primeros() {
+     cadena="$1"
+     echo "Los tres primeros caracteres de '$cadena' son: ${cadena:0:3}"
+}
+
 
 while true; do
     echo "----- MENÚ -----"
