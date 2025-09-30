@@ -4,6 +4,12 @@ mostrar_fecha() {
     echo "La fecha actual es: $(date)"
 }
 
+largo() {
+    cadena=$1
+    echo "El largo de la cadena $cadena es: ${#cadena}"
+}
+
+
 while true; do
     echo "----- MENÚ -----"
     echo "1) Mostrar fecha"

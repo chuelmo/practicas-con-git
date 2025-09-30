@@ -1,2 +1,3 @@
 rol:nombre:email
 docente:Christian Huelmo:chuelmo@gmail.com
+alumno:Sebastian:sl4563615@gmail.com
