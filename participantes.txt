@@ -1,2 +1,2 @@
 rol:nombre:email
-docente:Christian Huelmo:chuelmo@gmail.com
+estudiante:Fernando Sosa:fernandolsdl@gmail.com
