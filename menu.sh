@@ -15,6 +15,10 @@ tres_primeros() {
      echo "Los tres primeros caracteres de '$cadena' son: ${cadena:0:3}"
 }
 
+dividir() {
+     echo "5"
+}
+
 while true; do
     echo "----- MENÚ -----"
     echo "1) Mostrar fecha"
