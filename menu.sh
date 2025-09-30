@@ -15,6 +15,14 @@ tres_primeros() {
      echo "Los tres primeros caracteres de '$cadena' son: ${cadena:0:3}"
 }
 
+
+restar() {
+    resultado=$(( $1 - $2 ))
+    echo "El resultado de restar $1 - $2 es: $resultado"
+}
+
+
+
 while true; do
     echo "----- MENÚ -----"
     echo "1) Mostrar fecha"
