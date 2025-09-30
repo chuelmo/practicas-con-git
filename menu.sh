@@ -4,6 +4,11 @@ mostrar_fecha() {
     echo "La fecha actual es: $(date)"
 }
 
+largo() {
+    cadena=$1
+    echo "El largo de la cadena $cadena es: ${#cadena}"
+}
+
 tres_ultimos(){
 	palabra=$1
 	ultimas3=${palabra: -3}
@@ -13,6 +18,7 @@ primero() {
     cadena=$1
     echo "Cadena original: $1"
     echo "Primer caracter: ${cadena:0:1}"
+
 }
 
 tres_primeros() {
