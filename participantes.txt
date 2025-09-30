@@ -1,7 +1,4 @@
 rol:nombre:email
 docente:Christian Huelmo:chuelmo@gmail.com
-<<<<<<< HEAD
 estudiante:Guillermo Larrea:guillermolarrea97@gmail.com
-=======
 alumno:Francisco Polido:fpolido14@gmail.com
->>>>>>> main

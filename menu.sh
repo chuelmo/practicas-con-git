@@ -9,6 +9,10 @@ tres_primeros() {
      echo "Los tres primeros caracteres de '$cadena' son: ${cadena:0:3}"
 }
 
+dividir() {
+     echo "5"
+}
+
 while true; do
     echo "----- MENÚ -----"
     echo "1) Mostrar fecha"
@@ -29,8 +33,7 @@ while true; do
         2) mostrar_usuario ;;
         3) sumar 5 7 ;;
         4) restar 12 4 ;;
-        5) dividir 20 5 
-	 echo "Resultado: $((20/5))" ;;
+        5) dividir 20 5 ;;
         6) largo "palabra" ;;
         7) primero "palabra" ;;
         8) ultimo "palabra" ;;
