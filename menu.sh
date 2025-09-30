@@ -37,7 +37,8 @@ while true; do
         7) primero "palabra" ;;
         8) ultimo "palabra" ;;
         9) tres_primeros "palabra" ;;
-        10) tres_ultimos "palabra" ;;
+        10) tres_ultimos "palabra" 
+		tres_ultimo;;
         99) salir ;;
         *) echo "Opción inválida" ;;
     esac
