@@ -5,8 +5,7 @@ mostrar_fecha() {
 }
 
 tres_ultimo(){
-	read -p "Escriva una palabra" palabra
-	echo "Su palabra completa es: $palabra"
+	palabra=$1
 	ultimas3=${palabra: -3}
 	echo "Los ultimos tres caracteres son: $ultimas3"
 
@@ -37,8 +36,7 @@ while true; do
         7) primero "palabra" ;;
         8) ultimo "palabra" ;;
         9) tres_primeros "palabra" ;;
-        10) tres_ultimos "palabra" 
-		tres_ultimo;;
+        10) tres_ultimos "palabra" ;;
         99) salir ;;
         *) echo "Opción inválida" ;;
     esac
