@@ -10,7 +10,6 @@ primero() {
     echo "Primer caracter: ${cadena:0:1}"
 }
 
-
 while true; do
     echo "----- MENÚ -----"
     echo "1) Mostrar fecha"
