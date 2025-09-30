@@ -1,3 +1,4 @@
 rol:nombre:email
 docente:Christian Huelmo:chuelmo@gmail.com
 estudiante:Nicolas LUzardo:nicolas.luzardo05secundaria@gmail.com
+alumno:Francisco Polido:fpolido14@gmail.com

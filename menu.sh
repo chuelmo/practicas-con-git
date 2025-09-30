@@ -10,6 +10,11 @@ primero() {
     echo "Primer caracter: ${cadena:0:1}"
 }
 
+tres_primeros() {
+     cadena="$1"
+     echo "Los tres primeros caracteres de '$cadena' son: ${cadena:0:3}"
+}
+
 while true; do
     echo "----- MENÚ -----"
     echo "1) Mostrar fecha"
