@@ -4,6 +4,14 @@ mostrar_fecha() {
     echo "La fecha actual es: $(date)"
 }
 
+tres_ultimo(){
+	read -p "Escriva una palabra" palabra
+	echo "Su palabra completa es: $palabra"
+	ultimas3=${palabra: -3}
+	echo "Los ultimos tres caracteres son: $ultimas3"
+
+}
+
 while true; do
     echo "----- MENÚ -----"
     echo "1) Mostrar fecha"
