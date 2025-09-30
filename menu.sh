@@ -4,9 +4,24 @@ mostrar_fecha() {
     echo "La fecha actual es: $(date)"
 }
 
+tres_ultimos(){
+	palabra=$1
+	ultimas3=${palabra: -3}
+	echo "Los ultimos tres caracteres son: $ultimas3"
+
+primero() {
+    cadena=$1
+    echo "Cadena original: $1"
+    echo "Primer caracter: ${cadena:0:1}"
+}
+
 tres_primeros() {
      cadena="$1"
      echo "Los tres primeros caracteres de '$cadena' son: ${cadena:0:3}"
+}
+
+dividir() {
+     echo "5"
 }
 
 while true; do
@@ -32,10 +47,11 @@ while true; do
         5) dividir 20 5 ;;
         6) largo "palabra" ;;
         7) primero "palabra" ;;
-        8) ultimo "palabra" ;;
+	8) ultimo "palabra" ;;
         9) tres_primeros "palabra" ;;
         10) tres_ultimos "palabra" ;;
         99) salir ;;
         *) echo "Opción inválida" ;;
     esac
 done
+

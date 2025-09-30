@@ -1,3 +1,6 @@
 rol:nombre:email
+estudiante:Fernando Sosa:fernandolsdl@gmail.com
 docente:Christian Huelmo:chuelmo@gmail.com
+estudiante:Guillermo Larrea:guillermolarrea97@gmail.com
+estudiante:Nicolas LUzardo:nicolas.luzardo05secundaria@gmail.com
 alumno:Francisco Polido:fpolido14@gmail.com
