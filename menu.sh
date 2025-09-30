@@ -4,6 +4,10 @@ mostrar_fecha() {
     echo "La fecha actual es: $(date)"
 }
 
+mostrar_usuario() {
+    echo "El usuario actual es: $USER"
+}
+
 while true; do
     echo "----- MENÚ -----"
     echo "1) Mostrar fecha"
